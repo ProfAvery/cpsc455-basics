@@ -1,0 +1,22 @@
+{
+  "name": "cpsc455-basics",
+  "version": "1.0.0",
+  "description": "CPSC 455 - Spring 2022",
+  "scripts": {
+    "app": "npx nodemon app.js",
+    "api": "npx nodemon api.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ProfAvery/cpsc455-basics.git"
+  },
+  "author": "Kenytt Avery",
+  "license": "UNLICENSED",
+  "dependencies": {
+    "ejs": "^3.1.6",
+    "express": "^4.17.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  }
+}
