@@ -1,12 +1,11 @@
 const os = require('os')
 const express = require('express')
-const bodyParser = require('body-parser')
 
 const PORT = 8080
 const app = express()
 
 app.set('view engine', 'ejs')
-app.use(bodyParser.urlencoded({ extended: false }))
+app.use(express.urlencoded({ extended: false }))
 
 app.get('/', (req, res) => {
   res.render('form', { name: null })
